@@ -1,7 +1,7 @@
-const computerChoiceDisplay = document.body.getElementById("computer-choice");
-const userChoiceDisplay = document.body.getElementById("user-choice");
-const resultDisplay = document.body.getElementById("result");
-const possibleChoices = document.body.querySelectorAll("button");
+const computerChoiceDisplay = document.body.getElementById("#computer-choice");
+const userChoiceDisplay = document.body.getElementById("#user-choice");
+const resultDisplay = document.body.getElementById("#result");
+const possibleChoices = document.body.querySelector("#button");
 let userChoice;
 let computerChoice;
 possibleChoices.forEach((possibleChoice) =>
